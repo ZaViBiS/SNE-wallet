@@ -1,26 +1,16 @@
-## About Talleo
-
-Talleo is a cryptocurrency with the aim to become a worldwide accepted payment method with enhanced privacy and maintaining decentralisation.
-
-You can read more about it at https://bitcointalk.org/index.php?topic=5195073
-
-## About Talleo-gui
-
-This is a multi-platform GUI wallet for Talleo.
-
-## Building Talleo-gui
+## Building Sne-Wallet
 
 ### 1. Clone wallet sources
 
 ```
-git clone git@github.com/TalleoProject/talleo-gui
+git clone https://github.com/ZaViBiS/SNE-wallet.git
 ```
 
 ### 2. Update git submodules
 
 ```
 git submodule update --init --recursive
-git submodule foreach git pull origin master
+git submodule git pull origin master
 ```
 
 ### 3. Build
